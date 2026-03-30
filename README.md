@@ -50,7 +50,7 @@ terraform plan
 
 | Lab | Tier | Difficulty | Success mode | Focus | Repository |
 |---|---|---|---|---|---|
-| 01 | unassigned | unknown | plan | Practice core Terraform workflow habits and lifecycle protection. | [tfpro-01-lifecycle-cli-broken](https://github.com/lance0821/tfpro-01-lifecycle-cli-broken) |
+| 01 | core-authoring | easy | plan | Practice core Terraform workflow habits and lifecycle protection. | [tfpro-01-lifecycle-cli-broken](https://github.com/lance0821/tfpro-01-lifecycle-cli-broken) |
 | 02 | unassigned | unknown | plan | Practice stable Terraform patterns for iteration, conditional resources, and output shaping. | [tfpro-02-dynamic-config-broken](https://github.com/lance0821/tfpro-02-dynamic-config-broken) |
 | 03 | unassigned | unknown | plan | Practice bringing existing infrastructure under Terraform management and refactoring it safely. | [tfpro-03-state-import-moved-broken](https://github.com/lance0821/tfpro-03-state-import-moved-broken) |
 | 04 | unassigned | unknown | plan | Practice backend fundamentals and safe cross-stack data sharing. | [tfpro-04-remote-state-backend-broken](https://github.com/lance0821/tfpro-04-remote-state-backend-broken) |
