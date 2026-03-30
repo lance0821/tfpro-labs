@@ -46,28 +46,45 @@ terraform plan
 - Lab 17 — Lab 17 — Data Sources and Cross-Stack Lookups
 - Lab 18 — Lab 18 — Conditional Resources with count, one(), and try()
 
-## Lab catalog
+## Lab catalog by tier
 
-| Lab | Tier | Difficulty | Success mode | Focus | Repository |
+### Core authoring
+
+| Lab | Difficulty | Success mode | Time | Focus | Repository |
 |---|---|---|---|---|---|
-| 01 | core-authoring | easy | plan | Practice core Terraform workflow habits and lifecycle protection. | [tfpro-01-lifecycle-cli-broken](https://github.com/lance0821/tfpro-01-lifecycle-cli-broken) |
-| 02 | core-authoring | medium | plan | Practice stable Terraform patterns for iteration, conditional resources, and output shaping. | [tfpro-02-dynamic-config-broken](https://github.com/lance0821/tfpro-02-dynamic-config-broken) |
-| 03 | operations-state | hard | plan | Practice bringing existing infrastructure under Terraform management and refactoring it safely. | [tfpro-03-state-import-moved-broken](https://github.com/lance0821/tfpro-03-state-import-moved-broken) |
-| 04 | operations-state | medium | plan | Practice backend fundamentals and safe cross-stack data sharing. | [tfpro-04-remote-state-backend-broken](https://github.com/lance0821/tfpro-04-remote-state-backend-broken) |
-| 05 | operations-state | medium | plan | Practice separating environments with Terraform workspaces and consuming upstream outputs safely. | [tfpro-05-workspaces-cross-stack-broken](https://github.com/lance0821/tfpro-05-workspaces-cross-stack-broken) |
-| 06 | operations-state | medium | plan | Practice provider requirements, multi-region aliasing, and provider troubleshooting. | [tfpro-06-providers-alias-auth-broken](https://github.com/lance0821/tfpro-06-providers-alias-auth-broken) |
-| 07 | quality | medium | test | Practice variable validation, preconditions, check blocks, and basic Terraform test-driven verification. | [tfpro-07-validation-checks-tests-broken](https://github.com/lance0821/tfpro-07-validation-checks-tests-broken) |
-| 08 | aws-wiring | medium | plan | Practice building the IAM chain correctly and attaching it to an EC2 instance. | [tfpro-08-iam-ec2-broken](https://github.com/lance0821/tfpro-08-iam-ec2-broken) |
-| 09 | aws-wiring | easy | plan | Practice the recommended AWS provider pattern of using separate security group rule resources instead of inline rules. | [tfpro-09-security-group-rules-broken](https://github.com/lance0821/tfpro-09-security-group-rules-broken) |
-| 10 | core-authoring | medium | plan | Practice composing multiple child modules and wiring values between them through the root module. | [tfpro-10-module-composition-broken](https://github.com/lance0821/tfpro-10-module-composition-broken) |
-| 11 | operations-state | hard | plan | Practice bringing existing infrastructure under Terraform management and refactoring it safely without unnecessary recreation. | [tfpro-11-import-moved-refactor-broken](https://github.com/lance0821/tfpro-11-import-moved-refactor-broken) |
-| 12 | operations-state | medium | plan | Practice backend limitations, remote state consumption, and the separation between producer and consumer configurations. | [tfpro-12-remote-state-backend-rules-broken](https://github.com/lance0821/tfpro-12-remote-state-backend-rules-broken) |
-| 13 | operations-state | medium | plan | Practice using terraform.workspace for environment-aware behavior and adding guardrails for higher-risk environments. | [tfpro-13-workspaces-guardrails-broken](https://github.com/lance0821/tfpro-13-workspaces-guardrails-broken) |
-| 14 | operations-state | medium | plan | Practice configuring aliased providers in the root module and passing them correctly into child modules. | [tfpro-14-provider-alias-modules-broken](https://github.com/lance0821/tfpro-14-provider-alias-modules-broken) |
-| 15 | aws-wiring | medium | plan | Practice a common AWS Terraform pattern: S3 buckets with conditional versioning, lifecycle rules, and consistent tags. | [tfpro-15-s3-versioning-lifecycle-tags-broken](https://github.com/lance0821/tfpro-15-s3-versioning-lifecycle-tags-broken) |
-| 16 | core-authoring | medium | plan | Practice using filtered for_each expressions and shaping outputs as stable maps instead of fragile lists. | [tfpro-16-filtered-foreach-outputs-broken](https://github.com/lance0821/tfpro-16-filtered-foreach-outputs-broken) |
-| 17 | operations-state | medium | plan | Practice using data sources for lookups and reasoning about values produced outside the current configuration. | [tfpro-17-data-sources-cross-stack-broken](https://github.com/lance0821/tfpro-17-data-sources-cross-stack-broken) |
-| 18 | core-authoring | medium | plan | Practice conditionally creating resources and safely reading their values with count, one(), and try(). | [tfpro-18-conditional-resources-broken](https://github.com/lance0821/tfpro-18-conditional-resources-broken) |
+| 01 | easy | plan | 10 min | Practice core Terraform workflow habits and lifecycle protection. | [tfpro-01-lifecycle-cli-broken](https://github.com/lance0821/tfpro-01-lifecycle-cli-broken) |
+| 02 | medium | plan | 20 min | Practice stable Terraform patterns for iteration, conditional resources, and output shaping. | [tfpro-02-dynamic-config-broken](https://github.com/lance0821/tfpro-02-dynamic-config-broken) |
+| 10 | medium | plan | 20 min | Practice composing multiple child modules and wiring values between them through the root module. | [tfpro-10-module-composition-broken](https://github.com/lance0821/tfpro-10-module-composition-broken) |
+| 16 | medium | plan | 20 min | Practice using filtered for_each expressions and shaping outputs as stable maps instead of fragile lists. | [tfpro-16-filtered-foreach-outputs-broken](https://github.com/lance0821/tfpro-16-filtered-foreach-outputs-broken) |
+| 18 | medium | plan | 15 min | Practice conditionally creating resources and safely reading their values with count, one(), and try(). | [tfpro-18-conditional-resources-broken](https://github.com/lance0821/tfpro-18-conditional-resources-broken) |
+
+### AWS wiring
+
+| Lab | Difficulty | Success mode | Time | Focus | Repository |
+|---|---|---|---|---|---|
+| 08 | medium | plan | 20 min | Practice building the IAM chain correctly and attaching it to an EC2 instance. | [tfpro-08-iam-ec2-broken](https://github.com/lance0821/tfpro-08-iam-ec2-broken) |
+| 09 | easy | plan | 15 min | Practice the recommended AWS provider pattern of using separate security group rule resources instead of inline rules. | [tfpro-09-security-group-rules-broken](https://github.com/lance0821/tfpro-09-security-group-rules-broken) |
+| 15 | medium | plan | 20 min | Practice a common AWS Terraform pattern: S3 buckets with conditional versioning, lifecycle rules, and consistent tags. | [tfpro-15-s3-versioning-lifecycle-tags-broken](https://github.com/lance0821/tfpro-15-s3-versioning-lifecycle-tags-broken) |
+
+### Operations and state
+
+| Lab | Difficulty | Success mode | Time | Focus | Repository |
+|---|---|---|---|---|---|
+| 03 | hard | plan | 30 min | Practice bringing existing infrastructure under Terraform management and refactoring it safely. | [tfpro-03-state-import-moved-broken](https://github.com/lance0821/tfpro-03-state-import-moved-broken) |
+| 04 | medium | plan | 25 min | Practice backend fundamentals and safe cross-stack data sharing. | [tfpro-04-remote-state-backend-broken](https://github.com/lance0821/tfpro-04-remote-state-backend-broken) |
+| 05 | medium | plan | 25 min | Practice separating environments with Terraform workspaces and consuming upstream outputs safely. | [tfpro-05-workspaces-cross-stack-broken](https://github.com/lance0821/tfpro-05-workspaces-cross-stack-broken) |
+| 06 | medium | plan | 25 min | Practice provider requirements, multi-region aliasing, and provider troubleshooting. | [tfpro-06-providers-alias-auth-broken](https://github.com/lance0821/tfpro-06-providers-alias-auth-broken) |
+| 11 | hard | plan | 30 min | Practice bringing existing infrastructure under Terraform management and refactoring it safely without unnecessary recreation. | [tfpro-11-import-moved-refactor-broken](https://github.com/lance0821/tfpro-11-import-moved-refactor-broken) |
+| 12 | medium | plan | 25 min | Practice backend limitations, remote state consumption, and the separation between producer and consumer configurations. | [tfpro-12-remote-state-backend-rules-broken](https://github.com/lance0821/tfpro-12-remote-state-backend-rules-broken) |
+| 13 | medium | plan | 25 min | Practice using terraform.workspace for environment-aware behavior and adding guardrails for higher-risk environments. | [tfpro-13-workspaces-guardrails-broken](https://github.com/lance0821/tfpro-13-workspaces-guardrails-broken) |
+| 14 | medium | plan | 25 min | Practice configuring aliased providers in the root module and passing them correctly into child modules. | [tfpro-14-provider-alias-modules-broken](https://github.com/lance0821/tfpro-14-provider-alias-modules-broken) |
+| 17 | medium | plan | 20 min | Practice using data sources for lookups and reasoning about values produced outside the current configuration. | [tfpro-17-data-sources-cross-stack-broken](https://github.com/lance0821/tfpro-17-data-sources-cross-stack-broken) |
+
+### Quality
+
+| Lab | Difficulty | Success mode | Time | Focus | Repository |
+|---|---|---|---|---|---|
+| 07 | medium | test | 20 min | Practice variable validation, preconditions, check blocks, and basic Terraform test-driven verification. | [tfpro-07-validation-checks-tests-broken](https://github.com/lance0821/tfpro-07-validation-checks-tests-broken) |
 
 ## What these labs are designed to teach
 
