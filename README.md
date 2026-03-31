@@ -45,6 +45,7 @@ terraform plan
 - Lab 16 — Lab 16 — Filtered for_each and Map Outputs
 - Lab 17 — Lab 17 — Data Sources and Cross-Stack Lookups
 - Lab 18 — Lab 18 — Conditional Resources with count, one(), and try()
+- Lab 19 — Lab 19 — count to for_each Refactor
 
 ## Lab catalog by tier
 
@@ -79,6 +80,7 @@ terraform plan
 | 13 | medium | plan | 25 min | Practice using terraform.workspace for environment-aware behavior and adding guardrails for higher-risk environments. | [tfpro-13-workspaces-guardrails-broken](https://github.com/lance0821/tfpro-13-workspaces-guardrails-broken) |
 | 14 | medium | plan | 25 min | Practice configuring aliased providers in the root module and passing them correctly into child modules. | [tfpro-14-provider-alias-modules-broken](https://github.com/lance0821/tfpro-14-provider-alias-modules-broken) |
 | 17 | medium | plan | 20 min | Practice using data sources for lookups and reasoning about values produced outside the current configuration. | [tfpro-17-data-sources-cross-stack-broken](https://github.com/lance0821/tfpro-17-data-sources-cross-stack-broken) |
+| 19 | hard | plan | 30 min | Practice refactoring from count-based resources to stable for_each keys without unintended recreation. | [tfpro-19-count-to-foreach-refactor-broken](https://github.com/lance0821/tfpro-19-count-to-foreach-refactor-broken) |
 
 ### Quality
 
