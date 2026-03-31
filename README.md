@@ -4,6 +4,26 @@ Hands-on Terraform Professional exam practice labs.
 
 This repository is the public catalog for the Terraform Pro lab series. Each lab is a separate GitHub repository focused on one high-value exam topic.
 
+## Best starter labs
+
+- **Lab 01 — Lifecycle and CLI**
+- **Lab 07 — Validation, Checks, and Tests**
+- **Lab 09 — Security Groups and Separate Rule Resources**
+- **Lab 16 — Filtered `for_each` and Map Outputs**
+
+## Best refactor labs
+
+- **Lab 11 — Import, Moved Blocks, and Refactor**
+- **Lab 19 — count to `for_each` Refactor**
+
+## Best quality and test labs
+
+- **Lab 07 — Validation, Checks, and Tests**
+- **Lab 10 — Module Composition and Output Wiring**
+- **Lab 15 — S3 Versioning, Lifecycle, and Tags**
+- **Lab 16 — Filtered `for_each` and Map Outputs**
+- **Lab 18 — Conditional Resources with `count`, `one()`, and `try()`**
+
 ## How to use these labs
 
 1. Pick a lab from the catalog below.
