@@ -27,25 +27,25 @@ terraform plan
 
 ## Recommended study order
 
-- Lab 01 — Lab 01 — Lifecycle and CLI
-- Lab 02 — Lab 02 — Dynamic Configuration
-- Lab 03 — Lab 03 — State, Import, and Moved Blocks
-- Lab 04 — Lab 04 — Remote State and Backend Rules
-- Lab 05 — Lab 05 — Workspaces and Cross-Stack Data Flow
-- Lab 06 — Lab 06 — Providers, Aliases, and Auth
-- Lab 07 — Lab 07 — Validation, Checks, and Tests
-- Lab 08 — Lab 08 — IAM Chain and EC2
-- Lab 09 — Lab 09 — Security Groups and Separate Rule Resources
-- Lab 10 — Lab 10 — Module Composition and Output Wiring
-- Lab 11 — Lab 11 — Import, Moved Blocks, and Refactor
-- Lab 12 — Lab 12 — Remote State Consumer and Backend Rules
-- Lab 13 — Lab 13 — Workspaces and Environment Guardrails
-- Lab 14 — Lab 14 — Provider Aliases Through Modules
-- Lab 15 — Lab 15 — S3 Versioning, Lifecycle, and Tags
-- Lab 16 — Lab 16 — Filtered for_each and Map Outputs
-- Lab 17 — Lab 17 — Data Sources and Cross-Stack Lookups
-- Lab 18 — Lab 18 — Conditional Resources with count, one(), and try()
-- Lab 19 — Lab 19 — count to for_each Refactor
+- Lab 01 — Lifecycle and CLI
+- Lab 02 — Dynamic Configuration
+- Lab 03 — State, Import, and Moved Blocks
+- Lab 04 — Remote State and Backend Rules
+- Lab 05 — Workspaces and Cross-Stack Data Flow
+- Lab 06 — Providers, Aliases, and Auth
+- Lab 07 — Validation, Checks, and Tests
+- Lab 08 — IAM Chain and EC2
+- Lab 09 — Security Groups and Separate Rule Resources
+- Lab 10 — Module Composition and Output Wiring
+- Lab 11 — Import, Moved Blocks, and Refactor
+- Lab 12 — Remote State Consumer and Backend Rules
+- Lab 13 — Workspaces and Environment Guardrails
+- Lab 14 — Provider Aliases Through Modules
+- Lab 15 — S3 Versioning, Lifecycle, and Tags
+- Lab 16 — Filtered for_each and Map Outputs
+- Lab 17 — Data Sources and Cross-Stack Lookups
+- Lab 18 — Conditional Resources with count, one(), and try()
+- Lab 19 — count to for_each Refactor
 
 ## Lab catalog by tier
 
