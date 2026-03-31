@@ -66,6 +66,7 @@ terraform plan
 - Lab 17 — Data Sources and Cross-Stack Lookups
 - Lab 18 — Conditional Resources with count, one(), and try()
 - Lab 19 — count to for_each Refactor
+- Lab 20 — External Data Shaping with JSON and CSV
 
 ## Lab catalog by tier
 
@@ -78,6 +79,7 @@ terraform plan
 | 10 | medium | plan | 20 min | Practice composing multiple child modules and wiring values between them through the root module. | [tfpro-10-module-composition-broken](https://github.com/lance0821/tfpro-10-module-composition-broken) |
 | 16 | medium | plan | 20 min | Practice using filtered for_each expressions and shaping outputs as stable maps instead of fragile lists. | [tfpro-16-filtered-foreach-outputs-broken](https://github.com/lance0821/tfpro-16-filtered-foreach-outputs-broken) |
 | 18 | medium | plan | 15 min | Practice conditionally creating resources and safely reading their values with count, one(), and try(). | [tfpro-18-conditional-resources-broken](https://github.com/lance0821/tfpro-18-conditional-resources-broken) |
+| 20 | medium | plan | 25 min | Practice decoding JSON and CSV input files, shaping them in locals, and creating resources from stable keyed data. | [tfpro-20-external-data-shaping-broken](https://github.com/lance0821/tfpro-20-external-data-shaping-broken) |
 
 ### AWS wiring
 
