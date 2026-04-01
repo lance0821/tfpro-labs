@@ -1,0 +1,4 @@
+name,lifecycle_days,owner
+logs,30,platform
+assets,,web
+archive,90,ops
