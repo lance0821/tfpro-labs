@@ -1,0 +1,20 @@
+[
+  {
+    "name": "logs",
+    "team": "platform",
+    "enabled": true,
+    "versioning": true
+  },
+  {
+    "name": "assets",
+    "team": "web",
+    "enabled": true,
+    "versioning": false
+  },
+  {
+    "name": "archive",
+    "team": "ops",
+    "enabled": false,
+    "versioning": true
+  }
+]
